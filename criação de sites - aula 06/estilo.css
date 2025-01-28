@@ -1,0 +1,17 @@
+*{
+   margin :0;
+   padding :0;
+   box-sizing:border-box;
+}
+
+.flex-item{
+    background-color:gray;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.flex-conteiner{
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap
+}
